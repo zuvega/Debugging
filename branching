@@ -1,0 +1,8 @@
+year = int(input("Greetings! What is your year of origin? "))
+Greetings! What is your year of origin? 2000
+if year <= 1900:
+    print("Woah, your old!")
+elif year >= 1900 and year <= 2020:
+    print("That's totally the present!")
+else:
+    print("Far out there, that's the future!!")
